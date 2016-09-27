@@ -1,0 +1,40 @@
+
+<html>
+
+    <head>
+
+        <title>jQuery</title>
+<link rel="stylesheet" type="text/css" href="jsfiddlelike.css" />
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<link href="jquery-ui/jquery-ui.css" rel="stylesheet">
+<script src=jquery-ui/jquery-ui.js> </script>
+
+    </head>
+
+    <body>
+<div id="header">
+        <div id="logo">
+          CodePlayer
+        </div>
+    <div id="buttonContainer">
+        <div class="toggleButton active" id="html">HTML</div>
+        <div class="toggleButton" id="css">CSS</div>
+        <div class="toggleButton" id="js">JS</div>
+        <div class="toggleButton active" id="output">Output</div>
+    </div>
+</div>
+<div id="bodyContainer">
+  <textarea id="htmlPanel" class="panel"> <p id="paragraph">Heeeyyy</p> </textarea>
+  <textarea id="cssPanel" class="panel hidden">p{color:green;}</textarea>
+  <textarea id="jsPanel" class="panel hidden">document.getElementById("paragraph").innerHTML="Hello Valentyn!"</textarea>
+  <iframe   id="outputPanel" class="panel"></iframe>
+
+
+
+
+</div>
+
+  </body>
+  <script src="jsfiddlelike.js"></script>
+</html>
